@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200em;
+}
+section {
+    border: 2px dashed slategrey;
+    width: 400px;
+    height: 400px;
+    margin: 5em auto;
+    }
+
+div {
+    border-radius: 5px;
+    color: #444;
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: .5em;
+    text-align: center;
+    background: rgb(173,216,230, .7);
+}
+
+/* Aqui envio comandos para posicionar el texto */
+.uno {
+    position: relative;
+    top:25%;
+    right: 25%;
+
+ }   /* Se mueve el 25% del espacio de arriba de su posicion original 
+        su movimiento no se condiciona a nada, simplemente a su posicion*/
